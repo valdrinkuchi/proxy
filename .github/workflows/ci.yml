@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  build-push-backend:
+  build-push-proxy:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repo
